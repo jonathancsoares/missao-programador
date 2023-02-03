@@ -12,15 +12,20 @@
 
 <body>
     <div class="caixa-maior">
-        <input placeholder="Digite o nome da cidade">
-        <button>
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+        <button onclick="cliqueiNoBotao()">
             <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg" alt="">
         </button>
 
         <div class="caixa-media"> 
-            <h2>Tempo em Rio de Janeiro</h2>
+            <h2 class="cidade" >Tempo em Rio de Janeiro</h2>
             <p class="temp">28°C</p>
-            <p class="descricao">☁ Nuvens Dispersas</p>
+
+            <div class="caixa-menor">
+                <img class="icone" src="https://openweathermap.org/img/wn/04n.png" alt="">
+                <p class="descricao">Nuvens Dispersas</p>
+            </div>
+
             <p class="umidade">Umidade: 70%</p>
         </div>
     </div>
